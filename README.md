@@ -1,8 +1,8 @@
 # Projeto Integrador - Modelo
-*(Coloque aqui o nome do seu projeto.)*
+Terroir Café
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
-*(Coloque aqui uma breve descrição do seu projeto.)*
+Nosso projeto busca criar uma aplicação web para ampliar as vendas de uma pequena empresa de artigos ligados á café e sua preparação. Tendo como objetivo aumentar o alcance e oferecer uma plataforma moderna e acessível para a venda de produtos, como grãos, inteiros e moídos, filtros, moedores, máquinas de espresso, tampers, entre outros.    
 
 **IMPORTANTE**: [**Cadastre seu projeto nesta planilha**](https://docs.google.com/spreadsheets/d/1bSb1-S9qOf46fNH8quyoFpcjcTuBMj_EdSPchOuFULY/edit?usp=sharing).
 
@@ -15,7 +15,7 @@ Equipe:
 
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
+-   [Documentação (esse documento)](https://github.com/Terroir-cafe/Documentacao)
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
