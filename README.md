@@ -14,77 +14,16 @@ Equipe:
 - [José Carlos Mar Pereira Neto](github.com/josemarneto)
 
 Links do projeto:
-(*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](https://github.com/Terroir-cafe/Documentacao)
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
-**Como usar esse modelo para o Projeto Integrador**
-
-*(Essa parte pode ser apagada depois.)*
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instaladas as seguintes extensões:
-   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-   - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-5. Edite o arquivo README.md com as informações do seu projeto.
-
-# 1. Desenvolvimento
-*(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
-
 **1.1 Modelos de Sistemas**
-
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
 
 **1.1.1 Ponto de Vendas (PDV)**
 
-Um sistema de ponto de vendas é um software que permite a um estabelecimento comercial registrar as vendas realizadas, gerenciar o estoque, emitir notas fiscais, etc. Ele é utilizado principalmente em lojas, supermercados, padarias, restaurantes, etc.
+O nosso cliente, o Terroir Café, é uma loja especializada na venda de cafés e produtos relacionados, que vem se destacando pela qualidade e variedade de seus itens. Devido ao crescimento constante e ao aumento no número de pedidos, a equipe expandiu recentemente, contando agora com novos colaboradores nas áreas de atendimento, vendas e logística. Com essa estrutura mais completa, o foco atual do Terroir Café está na melhoria da gestão do negócio. Para isso, surgiu a necessidade de implementar um sistema de controle de vendas que permita registrar de forma eficiente todas as transações realizadas.
 
-**Exemplos de sistemas de pontos de vendas:**
-- Padaria, supermercado, cafeteria, pizzaria, restaurante, etc.
-- Farmácia, loja de roupas, papelaria, etc.
-
-
-**Exemplo: Gerenciamento de vendas para uma padaria**
-
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
-
-**1.1.2 Empréstimo**
-
-Um sistema de empréstimo é um software que permite a uma instituição, como uma biblioteca, gerenciar o empréstimo de livros, revistas, etc. Ele é utilizado principalmente em bibliotecas, escolas, universidades, etc.
-
-**Exemplos de sistemas de empréstimo:**
-- Biblioteca, coworking, estacionamento, etc.
-- Locadora de veículos, aluguel de equipamentos, etc.
-- Aluguel de imoveis, etc.
-- Aluguel de trajes, fantasias, brinquedos para festas, etc.
-
-**Exemplo: Gerenciamento de uma biblioteca**
-
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
-
-**1.1.3 Ordem de Serviço (O.S.)**
-
-Um sistema de ordem de serviço é um software que permite a uma empresa, como uma oficina, gerenciar os serviços realizados, os clientes atendidos, etc. Ele é utilizado principalmente em oficinas mecânicas, assistência técnica, etc.
-
-**Exemplos de sistemas de ordem de serviço:**
-- Manutenção de computadores, assistência técnica de celulares, etc.
-- Manutenção de veículos, etc.
-- Manutenção de eletrodomésticos, etc.
-
-
-**Exemplo:Manutenção de computadores**
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio no qual ele é responsável pelos consertos e sua esposa, Marília, realiza o atendimento aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante para ele conseguir ter relatórios que o ajudem na gestão da empresa, como o status dos serviços.
 
 # 2. Situação Problema
 
@@ -98,351 +37,249 @@ abordando o funcionamento da empresa como um todo, não apenas os “problemas�
 Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
 atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
 
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
 
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
+O Terroir Café é uma loja especializada na venda de cafés especiais, acessórios para preparo e itens relacionados ao universo do café. Fundada há cerca de 3 anos, a empresa vem conquistando um público fiel graças à qualidade dos produtos e ao cuidado na seleção dos grãos. O negócio é administrado por seu proprietário, que também atua diretamente nas decisões estratégicas. Atualmente, a equipe conta com aproximadamente 8 funcionários, divididos entre atendimento ao cliente, operação de caixa, estoque e logística de pedidos online.
 
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+
+O funcionamento do Terroir Café envolve tanto vendas presenciais quanto online. Durante o expediente, os atendentes auxiliam os clientes na escolha dos produtos, explicando características dos cafés, métodos de preparo e sugerindo combinações. Após a escolha, o cliente se dirige ao caixa, onde a venda é registrada manualmente ou em sistemas simples, como planilhas ou anotações, o que pode gerar lentidão e erros.
+
+No caso das vendas online, os pedidos chegam por meio do site e também por redes sociais. Esses pedidos são anotados manualmente pelos funcionários responsáveis, que organizam a separação dos produtos no estoque e encaminham para envio. Esse processo depende muito da comunicação entre os funcionários, o que pode ocasionar falhas, como pedidos duplicados, atrasos ou itens enviados incorretamente.
+
+O controle de estoque é feito de forma básica, geralmente por meio de conferências periódicas e registros manuais. Quando há grande volume de vendas, pode ocorrer divergência entre o estoque físico e o registrado, dificultando saber quais produtos precisam ser repostos. Além disso, a atualização dessas informações nem sempre é feita em tempo real.
+
+Outro ponto importante é o controle financeiro e de vendas. Atualmente, o proprietário precisa reunir informações de diferentes fontes — como anotações do caixa, registros de pedidos online e comprovantes de pagamento — para ter uma visão geral do faturamento. Esse processo é demorado e sujeito a erros, o que dificulta a análise do desempenho do negócio e a tomada de decisões estratégicas.
+
+
+Diante desse cenário, é possível identificar problemas como falta de integração entre os processos, registros manuais suscetíveis a erros, dificuldade no controle de estoque e ausência de relatórios consolidados de vendas. A implementação de um software de gestão de vendas poderia centralizar todas essas informações, automatizar processos, reduzir erros operacionais e fornecer relatórios detalhados, permitindo ao Terroir Café melhorar sua organização, eficiência e capacidade de crescimento.
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
+A proposta para o Terroir Café é o desenvolvimento de um sistema de controle de vendas e gestão integrado, cujo foco principal será centralizar todas as operações da loja em um único ambiente digital. O software permitirá registrar vendas, acompanhar pedidos (tanto presenciais quanto online), controlar o estoque em tempo real e gerar relatórios que auxiliem na tomada de decisões.
 
-**Alguns pontos importantes a se destacar são:**
+O sistema contará com diferentes níveis de usuários. Os administradores terão acesso às funções operacionais, como registrar vendas, consultar produtos e verificar disponibilidade em estoque, atualizar entradas e saídas de produtos, garantindo que as informações estejam sempre corretas. Por outro lado.
 
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+De forma geral, o software permitirá: registrar vendas de maneira rápida e organizada, integrar pedidos online e presenciais, manter o controle automatizado do estoque e gerar relatórios sobre faturamento, produtos mais vendidos e desempenho em determinados períodos.
 
 # 4. Modelagem de Dados
 
-(*Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
-Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
 
 
+![Diagrama Entidade-Relacionamento](img/BancoDados.png "Diagrama Entidade-Relacionamento do Terroir Café")
 
 # 4. Regras de negócio
-(*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
-As **Regras de negócio** são orientações e restrições que ajudam a regular as operações de uma empresa. **Regras** foram criadas para **colaborar com o funcionamento**, seja da sociedade, de uma escola, de um jogo, etc. Não seria diferente nas organizações. Vamos abordar melhor sobre esse assunto. Entender o que são as regras de negócio, sua importância, como são aplicadas e
-automatizadas na gestão por processo.
+RN01 – Cadastro de Produtos
 
-**4.1 O que são regras de negócio?**
+Para cadastrar um produto, é obrigatório informar nome, preço, categoria e marca. O preço deve ser maior que zero e o produto não pode estar duplicado (mesmo nome e marca).
 
-Um negócio funciona por processos que, por sua vez, são formados por atividades relacionadas entre si.
+RN02 – Atualização de Produtos
 
-As funções das áreas de compras, estoque, logística, finanças, vendas e marketing, por exemplo, compõem um processo de fornecimento de um produto ao cliente.
+A alteração de dados de um produto (preço, nome ou categoria) só pode ser realizada por usuários autorizados.
 
-Dentro desses processos, existem regras que devem ser seguidas durante a execução das atividades, que ajudam a definir **COMO** as operações devem ser realizadas e gerenciadas, **POR QUEM**, **QUANDO**, **ONDE** e **POR QUÊ**.
+RN03 – Controle de Estoque
 
-Podemos dizer que as regras de negócio são **limites impostos às operações**, de forma que elas sigam corretamente em direção às políticas e aos objetivos da instituição.
+Todo produto físico deve possuir controle de estoque, sendo que a quantidade disponível não pode ser negativa.
 
-**4.2 Regras para a criação de regras de negócio**
+RN04 – Reposição de Estoque
 
-De maneira geral, as regras de negócio devem:
-- Ser **simples**, isto é,  ter apenas uma função.
-- Ser **completas**, com início, meio e fim.
-- Ser possíveis de **mensurar** e **rastrear**.
-- Estar em consonância com a **legislação**.
-- Estar **atualizadas** e sempre **revisadas**.
-- Refletir a **política** e os **valores** da organização.
-- Ser **inteligíveis** para os colaboradores e envolvidos no processo.
+A entrada de novos produtos no estoque deve ser registrada no sistema com a quantidade adicionada e a data da movimentação.
 
-**4.3 Por que ter regras de negócio?**
+RN05 – Início de Venda
 
-- **Padronização de processos:** padronizam os processos e auxiliam a fluirem de forma mais eficiente e automatizada.
-- **Controle de processos:** auxiliam no controle de processos, pois falhas são identificadas e corrigidas mais rapidamente.
-- **Tomada de decisão:** auxiliam na tomada de decisão e no cumprimento de estratégias pré-estabelecidas.
+Para iniciar uma venda, o operador do caixa deve abrir uma nova venda no sistema.
 
-**4.4 Exemplos de regras de negócio**
+RN06 – Inserção de Produtos na Venda
 
-- Em um controle de qualidade de granja, pode-se dizer que a cada 100 ovos impróprios para consumo, o lote será descartado.
-- Em um banco, clientes com faturamento mensal de mais de R$ 25 mil e CPF sem restrições, serão atendidos pelo gerente Premium pessoa física.
-- Para conclusão de licitações, devem ser feitos três orçamentos e o vencedor será sempre o de menor preço final.
-- Em um processo de seleção de RH, o candidato só pode ser aprovado se tiver mais de 5 anos de experiência na área, diploma de pós-graduação, espanhol fluente e pretensão salarial abaixo de R$ 8.000,00.
-- Em um processo de vendas, o vendedor só pode vender um produto se o cliente tiver mais de 18 anos, renda familiar acima de R$ 5.000,00 e não tiver restrições no CPF.
-- Em um processo de compras, o fornecedor só pode ser contratado se tiver nota fiscal, certificado de qualidade e preço abaixo de R$ 10,00 por unidade.
-- Em um processo de logística, o pedido só pode ser enviado se o cliente tiver mais de 18 anos, endereço de entrega no mesmo estado e não tiver restrições no CPF.
+Para inserir um produto na venda, é necessário que o produto esteja cadastrado e que a quantidade informada seja maior que zero.
 
-**4.5 Como escrever regras de negócio?**
+RN07 – Verificação de Estoque na Venda
 
-- Número identificador.
-- Nome da regra.
-- Data de criação e data da última alteração para comparações e
-controle.
-- Nome dos Autores das versões.
-- Número da versão (1, 2 etc).
-- Dependências: insira o identificador das regras atreladas, às quais a regra em questão depende.
-- Uma descrição detalhada para compreensão da regra.
+Um produto só pode ser vendido se houver quantidade suficiente em estoque.
 
-**4.6 Exemplos de regras de negócio com formatação**
+RN08 – Cálculo do Valor Total
 
-- **RN01 – Criação Comanda:** Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
-- **RN02 – Inserir Produtos Comanda:** Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
-- **RN03 – Cadastro de Leitores:** Os leitores precisam fazer o cadastro para realizar o empréstimo.
-- **RN04 – Realizar Empréstimo:** Para realizar o empréstimo, apenas leitores com cadastro e nenhuma multa em aberto.
-- **RN05 – Registro de Empréstimo:** O gerente deve possuir acesso aos registros de empréstimos.
-- **RN06 – Pagamento de Multa:** O leitor que passar de 15 dias com o livro deverá pagar a multa de um real por dia de atraso.
-- **RN07 – Impressão de Orçamento:** Com as informações do
-orçamento registradas, a atendente deve imprimir o orçamento e
-repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve solicitar a sua assinatura para aprovar a execução do serviço.
-- **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
-- **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
+O valor total da venda deve ser calculado automaticamente com base nos produtos e quantidades informadas.
+
+RN09 – Finalização da Venda
+
+A venda só pode ser finalizada após a definição da forma de pagamento e confirmação do valor total.
+
+RN10 – Registro da Venda
+
+Ao finalizar a venda, o sistema deve registrar automaticamente a data, hora e valor total da transação.
+
+RN11 – Baixa no Estoque
+
+Após a finalização da venda, o sistema deve atualizar automaticamente o estoque dos produtos vendidos.
+
+RN12 – Formas de Pagamento
+
+Toda venda deve possuir uma forma de pagamento válida (dinheiro, cartão ou PIX).
+
+RN13 – Pagamento em Dinheiro
+
+Para pagamentos em dinheiro, o sistema deve calcular automaticamente o troco com base no valor pago.
+
+RN14 – Cancelamento de Venda
+
+Uma venda só pode ser cancelada por usuários autorizados e, ao ser cancelada, os produtos devem retornar ao estoque.
+
+RN15 – Relatórios de Vendas
+
+O sistema deve permitir a geração de relatórios de vendas por período, faturamento e produtos mais vendidos.
+
+RN16 – Acesso aos Relatórios
+
+Os relatórios gerenciais devem ser acessíveis apenas por usuários autorizados (ex: gerente ou proprietário).
+
+RN17 – Integridade dos Dados
+
+O sistema deve garantir que todas as vendas e movimentações sejam registradas corretamente, sem permitir dados incompletos.
 
 # 5. Requisitos funcionais
-(*Nessa parte a equipe deve descrever os requisitos funcionais que serão implementados no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
 
-**5.1 O que são requisitos funcionais?**
+R.F. 01 – Cadastro de Produtos:
 
-Um requisito funcional é uma declaração de como um sistema deve se comportar. Define o que o sistema deve fazer para atender às necessidades ou expectativas do usuário. Os requisitos funcionais podem ser pensados ​como recursos que o usuário detecta.
+Permite cadastrar novos produtos no sistema, como grãos, cápsulas, cafeteiras e acessórios, para que possam ser vendidos e controlados.
 
-Os requisitos funcionais são compostos de duas partes:
-**função** e **comportamento**.
+Dados necessários: nome, preço, categoria, marca, quantidade em estoque.
+Usuários: gerente, administrador.
 
-- A **função** é o que o sistema **faz**. Por exemplo: *“calcular imposto sobre vendas”*.
-- O **comportamento** é **como** o sistema faz. Por exemplo: *“O sistema deve calcular o imposto sobre vendas multiplicando o preço de compra pela alíquota do imposto.”*.
+R.F. 02 – Atualização de Produtos:
 
-**5.2 Tipos de requisitos funcionais**
+Permite alterar informações dos produtos cadastrados, garantindo que os dados estejam sempre atualizados.
 
-Os requisitos funcionais podem ser classificados em:
+Dados necessários: id do produto, nome, preço, categoria, marca, estoque.
+Usuários: gerente, administrador.
 
-- Regulamentos de Negócios
-- Requisitos de Certificação
-- Requisitos de relatório
-- Funções Administrativas
-- Níveis de autorização
-- Rastreamento de auditoria
-- Interfaces Externas
-- Gestão de dados
-- Requisitos Legais e Regulamentares
+R.F. 03 – Registro de Entrada de Estoque:
 
-**5.3 Diretrizes para a elaboração de requisitos funcionais**
+Permite registrar a entrada de novos produtos ou reposição no estoque.
 
-Cada requisito funcional precisa ser:
+Dados necessários: id do produto, quantidade, data da entrada.
+Usuários: gerente, administrador.
 
-- **Específico** sobre o que o sistema deve fazer.
-- **Mensurável** para que você possa dizer se o sistema está fazendo isso
-- **Alcançável** dentro do prazo que você definiu
-- **Relevante** para seus objetivos de negócios
-- **Limitado** no tempo para que você possa
-acompanhar o progresso
+R.F. 04 – Registro de Usuários:
 
-**5.4 Estrutura do requisito funcional**
+Permite cadastrar funcionários no sistema para controle de acesso.
 
-Um requisito funcional deve ser estruturado da seguinte forma:
+Dados necessários: nome, login, senha, nível de acesso.
+Usuários: administrador.
 
-- **Nome do requisito funcional:** descrição do
-requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+Processos
+R.F. 05 – Autenticação de Usuário:
 
-**5.4.1 Nome do requisito funcional**
+Realiza a validação de acesso ao sistema, permitindo que apenas usuários cadastrados utilizem as funcionalidades.
 
-**R.F. 99 - Nome do requisito funcional:** é o nome da função que o software terá. Sugerimos, por padronização, que tenha o prefixo R.F. (requisito funcional)
-seguida da numeração, para melhor identificação do requisito, acrescido do formato *“Substantivo + onde será feita a ação”*.
-Por exemplo:
-- R.F. 01 - Registro de Funcionários
-- R.F. 15 - Gerenciamento de consultas
-- R.F. 04 - Débito em conta corrente
+Dados necessários: login, senha, nível de acesso.
+Usuários: todos os usuários.
 
-Deixe para definir as numerações ao final, tendo em vista que mudanças podem acontecer e não é prático sempre ficar reajustando os números.
+R.F. 06 – Abertura de Venda:
 
-**5.4.2 Descrição do requisito funcional**
+Permite iniciar uma nova venda no sistema para registro dos produtos adquiridos pelo cliente.
 
-**Descrição do requisito:** local para descrever a função deste requisito.
+Dados necessários: data, hora, identificador da venda.
+Usuários: caixa.
 
-Sempre se preocupe em esclarecer dois pontos: o que o requisito faz e o motivo de sua existência. Isso é especialmente importante se a ação executada nesse requisito não for algo que já acontece naturalmente na empresa.
-Um exemplo é um Registro de funcionários, que talvez não exista hoje mas para o software é necessário para viabilizar uma autenticação de
-usuários. Outro exemplo é algo que faz sentido apenas para um  software, como a própria autenticação.
+R.F. 07 – Inserção de Produtos na Venda:
 
-**5.4.3 Dados necessários**
+Permite adicionar produtos à venda, informando a quantidade desejada.
 
-**Dados necessários:** aqui devem ser colocados os nomes dos dados que serão usados para que esse requisito atenda o que precisa fazer.
+Dados necessários: id do produto, quantidade, preço unitário.
+Usuários: caixa.
 
-Nas **entradas** e **processos**, em geral, são os dados que serão salvos (seja algo digitado pelo usuário ou captado do sistema, como a hora atual).
+R.F. 08 – Cálculo do Valor Total da Venda:
 
-Já nas **saídas**, são os dados que serão exibidos em tela (sejam eles vindos diretamente do banco, ou criados por um cálculo ou busca na sessão do usuário).
+Calcula automaticamente o valor total da venda com base nos itens inseridos.
 
-**5.4.4 Usuários**
+Dados necessários: lista de produtos, quantidade, preço.
+Usuários: sistema (automático).
 
-**Usuários:** aqui devem ser colocados os nomes dos usuários que terão acesso a esse requisito, conforme enumerados na descrição do sistema.
+R.F. 09 – Finalização da Venda:
 
-**5.4.5 Exemplo de requisito funcional**
+Permite concluir a venda após a definição da forma de pagamento.
 
-- **R.F. 01 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando
-para a página principal de seu perfil de acesso.
-  - **Dados necessários:** login, senha, nível de permissão.
-  - **Usuários:** todos os níveis de usuário.
+Dados necessários: valor total, forma de pagamento.
+Usuários: caixa.
 
-**5.4.6 Organização dos requisitos funcionais**
+R.F. 10 – Controle de Estoque:
 
-As funcionalidades devem ser organizadas em: entradas, processos e saídas.
+Atualiza automaticamente o estoque após a realização ou cancelamento de uma venda.
 
-**Entradas:** São as funcionalidades que alimentarão o software com as informações essenciais para seu uso.
+Dados necessários: id do produto, quantidade vendida.
+Usuários: sistema (automático).
 
-**Exemplos de entradas:**
-- “**Registro de usuário**” (para permitir depois seu acesso ao software).
-- “**Registro de paciente**” (que seria útil caso nosso software fosse ppara uma clínica, evitando registrar várias vezes os mesmos dados da pessoa a cada consulta e viabilizando um histórico de seus
-atendimentos).
+R.F. 11 – Cancelamento de Venda:
 
-**Processos:** Em geral, englobam toda ação que executa cálculos, processamentos de tomada de decisão ou transforma dados em novos dados.
+Permite cancelar uma venda realizada, mediante autorização.
 
-**Exemplos de processos:**
-- “**Autenticação de usuário**”, que usará os dados de “**Registro de usuário**” em sua execução.
-- “**Agendamento de consulta**”, que usará dados do “**Registro de paciente**” e talvez do “**Registro de funcionário**” em sua execução.
+Dados necessários: id da venda, motivo do cancelamento.
+Usuários: gerente, administrador.
 
-**Saídas:** São os relatórios, gráficos, impressões, etc., que utilizarem os dados do software para gerar informações pertinentes ao
-negócio, mas sem intenção de alterá-los, apenas permitindo sua visualização e filtragem.
+Saídas
+R.F. 12 – Relatório de Vendas:
 
-**Exemplos de saídas:**
-- “Relatório de consultas por paciente”.
-- Relatório de vendas”.
-- “Log de usuários autenticados”.
+Exibe informações sobre vendas realizadas em um determinado período.
 
-Todos esses podem ser consideradas saídas, pois usam informações de entradas e processos de modo a mostrar informações relevantes ao
-negócio. Lembre-se que, diferentemente das entradas e processos, aqui os dados necessários devem ser os que a tela exibirá.
+Dados necessários: data, produtos vendidos, quantidade, valor total.
+Usuários: gerente, administrador.
 
-**5.4.7 Exemplo de organização dos requisitos funcionais**
+R.F. 13 – Relatório de Produtos Mais Vendidos:
 
-(_A seguir, um exemplo de organização de requisitos funcionais, com entradas, processos e saídas._)
+Apresenta os produtos com maior volume de vendas.
 
-**Entradas:**
+Dados necessários: nome do produto, quantidade vendida.
+Usuários: gerente, administrador.
 
-- **R.F. 01 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+R.F. 14 – Relatório de Estoque:
 
-- **R.F. 02 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+Exibe a quantidade disponível de produtos e alerta para itens com baixo estoque.
 
-**Processamento:**
+Dados necessários: nome do produto, quantidade em estoque.
+Usuários: gerente, administrador.
 
-- **R.F. 03 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+R.F. 15 – Consulta de Produtos:
 
-- **R.F. 04 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+Permite visualizar os produtos cadastrados no sistema.
 
-**Saídas:**
-
-- **R.F. 05 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
-
-- **R.F. 06 - Nome do requisito funcional:** descrição do requisito.
-  - **Dados necessários:** dado 1, dado 2, dado 3.
-  - **Usuários:** todos os níveis de usuário.
+Dados necessários: nome, preço, categoria, marca, estoque.
+Usuários: todos os usuários.
 
 # 6. Requisitos não funcionais
 
-Requisitos não funcionais (**RNFs**) são as restrições impostas a um sistema que definem seus atributos de qualidade.
 
-Eles geralmente são indicados por adjetivos como **segurança**, **desempenho** e **escalabilidade**.
+R.N.F. 01 - Navegadores:
+O sistema deverá ser compatível com os navegadores Google Chrome e Mozilla Firefox em suas versões mais recentes.
 
-**6.1 Categorias de requisitos não funcionais**
+R.N.F. 02 - Desempenho:
+O sistema deve ser capaz de processar vendas e consultas em até 2 segundos, mesmo com múltiplos usuários simultâneos.
 
-Os requisitos não funcionais são importantes porque ajudam a garantir que o sistema atenda às necessidades do usuário.
+R.N.F. 03 - Segurança:
+O sistema deve garantir que apenas usuários autenticados possam fazer compras
 
-Os Requisitos Não Funcionais explicam as limitações e restrições do sistema a ser projetado. **Esses requisitos não têm nenhum
-impacto na funcionalidade do aplicativo.** Além disso, existe uma prática comum de subclassificar os requisitos não funcionais em várias categorias:
+R.N.F. 04 - Controle de Acesso:
+O sistema deve possuir diferentes níveis de acesso (administrador e cliente),limitando funcionalidades conforme o perfil.
 
-- Interface de Usuário
-- Confiabilidade
-- Segurança
-- Atuação
-- Manutenção
+R.N.F. 05 - Disponibilidade:
+O sistema deve estar disponível 24 horas por dia, com no mínimo 99% de disponibilidade.
 
-Os requisitos não funcionais podem ser divididos em duas categorias:
+R.N.F. 06 - Usabilidade:
+O sistema deve possuir interface simples, intuitiva e de fácil utilização para os funcionários da loja.
 
-1. **Atributos de qualidade:** Estas são as características do sistema que determinam sua qualidade geral. Exemplos de atributos de qualidade incluem segurança, desempenho e usabilidade.
-2. **Restrições:** Estas são as limitações impostas ao sistema.
-Exemplos de restrições incluem tempo, recursos e ambiente.
+R.N.F. 07 - Confiabilidade:
+O sistema deve garantir que as informações de vendas e estoque sejam armazenadas corretamente, sem perda de dados.
 
-**6.2 Vantagens dos requisitos não funcionais**
+R.N.F. 08 - Banco de Dados:
+O sistema será implementado utilizando banco de dados MySQL.
 
-Os requisitos não funcionais ajudam a garantir que o sistema seja:
+R.N.F. 09 - Tecnologias Utilizadas:
+O sistema deverá ser desenvolvido utilizando HTML5, CSS3, JavaScript utilizando framework vuejs, Python utilizando framework django e SQL.
 
-1. Adaptado às necessidades do usuário.
-2. Adequado à finalidade.
-3. Escalável, seguro e confiável.
-4. Fácil de usar e manter.
+R.N.F. 10 - Manutenção:
+O sistema deve ser desenvolvido de forma organizada, permitindo fácil manutenção e atualização futura.
 
-**6.3 Exemplos de requisitos não funcionais**
-
-Aqui estão alguns exemplos de requisitos não funcionais:
-1. **Segurança**: O sistema deve ser protegido contra acesso não
-autorizado.
-2. **Atuação**: O sistema deve ser capaz de lidar com o número necessário
-de usuários sem qualquer degradação no desempenho.
-3. **Escalabilidade**: O sistema deve ser capaz de aumentar ou diminuir
-conforme necessário.
-4. **Disponibilidade**: O sistema deve estar disponível quando necessário.
-5. **Manutenção**: O sistema deve ser fácil de manter e atualizar.
-6. **Portabilidade**: O sistema deve ser capaz de rodar em diferentes
-plataformas com alterações mínimas.
-7. **Confiabilidade**: O sistema deve ser confiável e atender aos requisitos
-do usuário.
-8. **Usabilidade**: O sistema deve ser fácil de usar e entender.
-9. **Compatibilidade**: O sistema deve ser compatível com outros sistemas.
-10. **Conformidade**: O sistema deve cumprir todas as leis e regulamentos
-aplicáveis.
-
-**6.4 Exemplo de organização dos requisitos não funcionais**
-
-(_A seguir, um exemplo de organização de requisitos não funcionais._)
-
-**Requisitos não funcionais:**
-
-- **R.N.F. 01 - Nome do requisito não funcional:** descrição do requisito.
-- **R.N.F. 02 - Nome do requisito não funcional:** descrição do requisito.
-
-**Exemplos de requisitos não funcionais:**
-
-
-**Sistema de Padaria**:
-- **R.N.F. 01 - Navegador homologado:** O sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox.
-- **R.N.F. 02 - Processador:** É recomendado para o sistema  no mínimo um processador Intel i3, similar ou superior a geração 7100 ou AMD Ryzen 3 da geração similar ou superior ao 3100, para que o servidor funcione em sua melhor performance.
-- **R.N.F. 03 - Memória RAM:** é recomendável que o sistema possua no mínimo 2GB de RAM para melhor performance.
-- **R.N.F. 04 - Arquitetura:** Será utilizada a arquitetiura MVC para o desenvolvimento do sistema, com uso de uma API REST para comunicação com o banco de dados.
-- **R.N.F. 05 - Banco de dados:** O sistema será implementado com o banco de dados MySQL.
-- **R.N.F. 06 - Conexão com banco de dados:** Para conexão com o banco de dados, o sistema utilizará a ferramenta de MySQL Connector.
-- **R.N.F. 07 - Implementação:** O sistema deverá ser desenvolvido com linguagem Python, Javascript, HTML5, CSS3 e SQL.
-- **R.N.F. 08 - Segurança:** Ficará a critério do responsável do estabelecimento a segurança dos acessos ao sistema, tendo consciência das pessoas que possua permissão para acesso.
-- **R.N.F. 09 - Ambiente de Desenvolvimento Integrado (IDE):** Para criação do sistema, será utilizado o editor de texto Visual Studio Code.
-- **R.N.F. 10 - Disponibilidade:** O sistema irá atender 99% do tempo de uso, somente ocorreria problemas de cadastro, remoção, inserção ou alteração em casos de falta de rede ou energia.
-- **R.N.F. 11 - Legais:** O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
-
-**Sistema de Ordem de Serviço:**
-- **R.N.F. 01 - Navegadores homologados:** o sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox.
-- **R.N.F. 02 - Tecnologia Front-end:** Para a exibição em front-end, o software utilizará o CSS3 e o HTML5, além do framework Vue.js.
-- **R.N.F. 03- Tecnologia Back-end:** O software será desenvolvido pela linguagem de programação Python, com o framework Django e a API REST com Django REST Framework.
-- **R.N.F. 04 - Interoperabilidade:** O banco de dados será o MySQL, com a linguagem SQL de banco, sendo todo produzido através do MySQL Workbench .
-- **R.N.F. 05 - Forma de uso do software:** O sistema por fazer parte de um ambiente interno, provavelmente será utilizado de acordo com as horas de trabalho da empresa, mas estará ativo 24 horas por dia em 7 dias por semana.
-- **R.N.F. 06 - Desempenho:** Para a utilização correta e com uma qualidade e eficiência melhor, é recomendado que se use o SO mais atualizado, com recursos de hardware equivalentes a um processador intel i3 5°Gen ou semelhante, e 8GB de memória RAM, assim como os navegadores homologados.
-- **R.N.F. 07- Autenticação:** Para realizar o acesso ao sistema é necessário ter um usuário de autenticação criado pelo administrador, além da possibilidade de solicitar um envio de redefinição de senha.
-- **R.N.F. 08 - Web Server:** O servidor web utilizado será o Apache Tomcat, nas versões mais atualizadas.
-- **R.N.F. 09 - Níveis de segurança:** O software terá diferentes tipos de acesso para cada tipo de login, tendo as permissões ideais a função de cada um.
-
-**6.6 Conclusão**
-
-Requisitos não funcionais são essenciais para qualquer sistema. Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
-
-É importante considerar cuidadosamente todos os requisitos não funcionais antes de projetar e desenvolver um sistema.
-Eles ajudam a garantir que o sistema atenda às necessidades do usuário e seja capaz de funcionar como pretendido.
+R.N.F. 11 - Compatibilidade:
+O sistema deve ser acessível em diferentes dispositivos, como computadores e notebooks.
 
 # 7. Diagrama de Caso de Uso
 
