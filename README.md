@@ -16,7 +16,7 @@ Equipe:
 Links do projeto:
 -   [Documentação (esse documento)](https://github.com/Terroir-cafe/Documentacao)
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Frontend: [Repositório](https://github.com/Terroir-cafe/front-end.git) e [Publicação](https://pi-frontend.herokuapp.com/)
 
 **1.1 Modelos de Sistemas**
 
