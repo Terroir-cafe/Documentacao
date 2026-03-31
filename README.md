@@ -84,55 +84,47 @@ RN04 – Reposição de Estoque
 
 A entrada de novos produtos no estoque deve ser registrada no sistema com a quantidade adicionada e a data da movimentação.
 
-RN05 – Início de Venda
-
-Para iniciar uma venda, o operador do caixa deve abrir uma nova venda no sistema.
-
-RN06 – Inserção de Produtos na Venda
+RN05 – Inserção de Produtos na Venda
 
 Para inserir um produto na venda, é necessário que o produto esteja cadastrado e que a quantidade informada seja maior que zero.
 
-RN07 – Verificação de Estoque na Venda
+RN06 – Verificação de Estoque na Venda
 
 Um produto só pode ser vendido se houver quantidade suficiente em estoque.
 
-RN08 – Cálculo do Valor Total
+RN07 – Cálculo do Valor Total
 
 O valor total da venda deve ser calculado automaticamente com base nos produtos e quantidades informadas.
 
-RN09 – Finalização da Venda
+RN08 – Finalização da Venda
 
 A venda só pode ser finalizada após a definição da forma de pagamento e confirmação do valor total.
 
-RN10 – Registro da Venda
+RN09 – Registro da Venda
 
 Ao finalizar a venda, o sistema deve registrar automaticamente a data, hora e valor total da transação.
 
-RN11 – Baixa no Estoque
+RN10 – Baixa no Estoque
 
 Após a finalização da venda, o sistema deve atualizar automaticamente o estoque dos produtos vendidos.
 
-RN12 – Formas de Pagamento
+RN11 – Formas de Pagamento
 
 Toda venda deve possuir uma forma de pagamento válida (dinheiro, cartão ou PIX).
 
-RN13 – Pagamento em Dinheiro
+RN12 – Pagamento em Dinheiro
 
 Para pagamentos em dinheiro, o sistema deve calcular automaticamente o troco com base no valor pago.
 
-RN14 – Cancelamento de Venda
-
-Uma venda só pode ser cancelada por usuários autorizados e, ao ser cancelada, os produtos devem retornar ao estoque.
-
-RN15 – Relatórios de Vendas
+RN13 – Relatórios de Vendas
 
 O sistema deve permitir a geração de relatórios de vendas por período, faturamento e produtos mais vendidos.
 
-RN16 – Acesso aos Relatórios
+RN14 – Acesso aos Relatórios
 
-Os relatórios gerenciais devem ser acessíveis apenas por usuários autorizados (ex: gerente ou proprietário).
+Os relatórios gerenciais devem ser acessíveis apenas por usuários admistradores
 
-RN17 – Integridade dos Dados
+RN15 – Integridade dos Dados
 
 O sistema deve garantir que todas as vendas e movimentações sejam registradas corretamente, sem permitir dados incompletos.
 
@@ -143,21 +135,21 @@ R.F. 01 – Cadastro de Produtos:
 Permite cadastrar novos produtos no sistema, como grãos, cápsulas, cafeteiras e acessórios, para que possam ser vendidos e controlados.
 
 Dados necessários: nome, preço, categoria, marca, quantidade em estoque.
-Usuários: gerente, administrador.
+Usuários: administrador.
 
 R.F. 02 – Atualização de Produtos:
 
 Permite alterar informações dos produtos cadastrados, garantindo que os dados estejam sempre atualizados.
 
 Dados necessários: id do produto, nome, preço, categoria, marca, estoque.
-Usuários: gerente, administrador.
+Usuários: administrador.
 
 R.F. 03 – Registro de Entrada de Estoque:
 
 Permite registrar a entrada de novos produtos ou reposição no estoque.
 
 Dados necessários: id do produto, quantidade, data da entrada.
-Usuários: gerente, administrador.
+Usuários: administrador.
 
 R.F. 04 – Registro de Usuários:
 
@@ -179,42 +171,42 @@ R.F. 06 – Abertura de Venda:
 Permite iniciar uma nova venda no sistema para registro dos produtos adquiridos pelo cliente.
 
 Dados necessários: data, hora, identificador da venda.
-Usuários: caixa.
+Usuários: administrador.
 
 R.F. 07 – Inserção de Produtos na Venda:
 
 Permite adicionar produtos à venda, informando a quantidade desejada.
 
 Dados necessários: id do produto, quantidade, preço unitário.
-Usuários: caixa.
+Usuários: administrador.
 
 R.F. 08 – Cálculo do Valor Total da Venda:
 
 Calcula automaticamente o valor total da venda com base nos itens inseridos.
 
 Dados necessários: lista de produtos, quantidade, preço.
-Usuários: sistema (automático).
+Usuários: sistema.
 
 R.F. 09 – Finalização da Venda:
 
 Permite concluir a venda após a definição da forma de pagamento.
 
 Dados necessários: valor total, forma de pagamento.
-Usuários: caixa.
+Usuários: administrador.
 
 R.F. 10 – Controle de Estoque:
 
 Atualiza automaticamente o estoque após a realização ou cancelamento de uma venda.
 
 Dados necessários: id do produto, quantidade vendida.
-Usuários: sistema (automático).
+Usuários: sistema.
 
 R.F. 11 – Cancelamento de Venda:
 
 Permite cancelar uma venda realizada, mediante autorização.
 
 Dados necessários: id da venda, motivo do cancelamento.
-Usuários: gerente, administrador.
+Usuários: administrador.
 
 Saídas
 R.F. 12 – Relatório de Vendas:
@@ -222,21 +214,21 @@ R.F. 12 – Relatório de Vendas:
 Exibe informações sobre vendas realizadas em um determinado período.
 
 Dados necessários: data, produtos vendidos, quantidade, valor total.
-Usuários: gerente, administrador.
+Usuários: administrador.
 
 R.F. 13 – Relatório de Produtos Mais Vendidos:
 
 Apresenta os produtos com maior volume de vendas.
 
 Dados necessários: nome do produto, quantidade vendida.
-Usuários: gerente, administrador.
+Usuários: administrador.
 
 R.F. 14 – Relatório de Estoque:
 
 Exibe a quantidade disponível de produtos e alerta para itens com baixo estoque.
 
 Dados necessários: nome do produto, quantidade em estoque.
-Usuários: gerente, administrador.
+Usuários: administrador.
 
 R.F. 15 – Consulta de Produtos:
 
@@ -246,7 +238,6 @@ Dados necessários: nome, preço, categoria, marca, estoque.
 Usuários: todos os usuários.
 
 # 6. Requisitos não funcionais
-
 
 R.N.F. 01 - Navegadores:
 O sistema deverá ser compatível com os navegadores Google Chrome e Mozilla Firefox em suas versões mais recentes.
