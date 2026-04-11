@@ -49,7 +49,7 @@ De forma geral, o software permitirá: registrar vendas de maneira rápida e org
 # 4. Modelagem de Dados
 
 
-![Diagrama Entidade-Relacionamento](img/BancoDados.png "Diagrama Entidade-Relacionamento do Terroir Café")
+![Diagrama Entidade-Relacionamento](img/novobanco.png "Diagrama Entidade-Relacionamento do Terroir Café")
 
 # 4. Regras de negócio
 
