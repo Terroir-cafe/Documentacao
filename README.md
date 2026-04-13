@@ -101,15 +101,7 @@ RN12 – Pagamento em Dinheiro
 
 Para pagamentos em dinheiro, o sistema deve calcular automaticamente o troco com base no valor pago.
 
-RN13 – Relatórios de Vendas
-
-O sistema deve permitir a geração de relatórios de vendas por período, faturamento e produtos mais vendidos.
-
-RN14 – Acesso aos Relatórios
-
 Os relatórios gerenciais devem ser acessíveis apenas por usuários admistradores
-
-RN15 – Integridade dos Dados
 
 O sistema deve garantir que todas as vendas e movimentações sejam registradas corretamente, sem permitir dados incompletos.
 
