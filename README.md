@@ -17,7 +17,7 @@ Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](https://github.com/Terroir-cafe/Documentacao)
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://backend-terroir-dev.class.fabricadesoftware.ifc.edu.br/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://terroir-cafe-producao.vercel.app/)
 
 **Como usar esse modelo para o Projeto Integrador**
 
