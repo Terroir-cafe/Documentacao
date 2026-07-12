@@ -13,7 +13,7 @@ Equipe:
 
 Links do projeto:
 -   [Documentação (esse documento)](https://github.com/Terroir-cafe/Documentacao)
--   Backend: [Repositório](https://github.com/Terroir-cafe/back-end.git) e [Publicação](https://backend-terroir-dev.class.fabricadesoftware.ifc.edu.br/)
+-   Backend: [Repositório](https://github.com/Terroir-cafe/back-end.git) e [Publicação](https://terroir-backend-dev.class.fabricadesoftware.ifc.edu.br/)
 -   Frontend: [Repositório](https://github.com/Terroir-cafe/front-end.git) e [Publicação](https://terroir-cafe-producao.vercel.app/)
 
 **1.1 Modelos de Sistemas**
